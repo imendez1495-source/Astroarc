@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 public class AstroarcShopPage extends AstroarcBase {
 	
-	By bootItem = By.xpath("//h2[text()='Astro Z1 Boot']/following::div[contains(@class,'bg-[#D5D5D5]')][1]");
+	By bootItem = By.xpath("//article/div/h2[text()='Astro Z1 Boot']/following-sibling::div/div");
 	By cartButton = By.xpath("//div[normalize-space(.) = 'Cart']");
 	By itemInCart = By.xpath("//div[contains(@class,'items-end')]//div[contains(@class,'text-white')]");
 	By firstName = By.cssSelector("input[placeholder='First Name']");
